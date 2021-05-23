@@ -18,7 +18,6 @@ use Bitrix\Main\Context,
 	Bitrix\Main\Loader,
 	Bitrix\Iblock;
 
-
 if(!isset($arParams["CACHE_TIME"]))
 	$arParams["CACHE_TIME"] = 36000;
 
