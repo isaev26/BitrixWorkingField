@@ -27,7 +27,7 @@ $arComponentParameters = array(
 	"GROUPS" => array(
 	),
 	"PARAMETERS" => array(
-		"AJAX_MODE" => array(),
+//		"AJAX_MODE" => array(),
 		"IBLOCK_TYPE" => array(
 			"PARENT" => "BASE",
 			"NAME" => GetMessage("T_IBLOCK_DESC_LIST_TYPE"),
