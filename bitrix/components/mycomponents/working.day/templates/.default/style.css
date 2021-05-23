@@ -1,0 +1,41 @@
+.working_day{
+	display: flex;
+	flex-direction: column;
+}
+.working_day #btn{
+	display: inline-block;
+	background-color: #ffae00;
+	border: none;
+	color: white;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.result_form{
+	display: block;
+	margin: 30px 0px;
+	font-size: 16px;
+	font-weight: 700;
+}
+input[type=date]{
+	padding: 6px 15px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+	color: transparent;
+	opacity: 1;
+	background: url('img/calendar.gif') no-repeat center;
+	background-size: contain;
+	padding: 5px;
+	cursor: pointer;
+}
+input[type="date"]::-webkit-datetime-edit {
+	border-right: 1px solid;
+}
+.working_day p{
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
