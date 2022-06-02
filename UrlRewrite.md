@@ -1,4 +1,4 @@
-# ЧПУ обработка адресов для кастомной деталной страницы
+# ЧПУ Битрикс, обработка адресов для кастомной деталной страницы (UrlRewrite)
 
 ## bitrix:news.list
 "DETAIL_URL" => "#SITE_DIR#/services/#SECTION_CODE_PATH#/#ELEMENT_CODE#/",
